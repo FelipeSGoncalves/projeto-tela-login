@@ -24,6 +24,7 @@
             $senha= addslashes($_POST['senha']);
             if(!empty($email) && !empty($senha)){
                 header('Location: logado.php');
+                //aqui é onde eu faria a chamada para o banco de dados verificar os dados
             }
             else{
                 ?>
